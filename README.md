@@ -1,5 +1,4 @@
 
-23307130412
 2025/3/4
 解题思路：
    题目要求寻找query中最长(较长的覆盖较短的)重复片段，找到query和reference不一样之处，返回重复片段多余重复次数，片段在reference中首次结束下标。
@@ -145,6 +144,8 @@ def find_repeated_segments(query, m):
             continue
 
 在以上基础上添加符合要求的输出print语句，并用python语法改写，就得到最终的程序，详细代码可见DNA_.py文件
+
+by: 23307130412
 	算法总时间复杂度是O(mn)，空间复杂度是O(mn + n^2)
 
 运行结果截图：
